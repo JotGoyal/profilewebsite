@@ -3,21 +3,51 @@
     <head>
         <title></title>
         <link href="index.css" rel="stylesheet" text="text/css"/>
+        <script src="https://kit.fontawesome.com/97f33a6782.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <div class="container">
-            <header class="header">
-                <div class="name">
-                    <h2>Priya Jot Goyal</h2>
-                </div>
-            </header>
-            <div class="profile">
+        <div class="main">
+            <!-- <header class="header">
+                <!-- <div class="myname">
+                    <span>Priya Jot Goyal</span>
+                </div> 
+            </header> -->
+            <!-- <div class="profile">
                 <div class="profilediv">
                     <div class="imgdiv">
                         <img src="images/PriyaJot.jpeg" alt="profileimg" class="profileimg"/>
                     </div>
                     <div name="text">
                         Hii This is Priya Jot Goyal, an extremely motivated indiviadual working as Java developer in a Telecom Industry since April,2021 and working to enhance my skills as developer.A stock market, equity market, or share market is the aggregation of buyers and sellers of stocks (also called shares), which represent ownership claims on businesses; these may include securities listed on a public stock exchange, as well as stock that is only traded privately, such as shares of private companies which are sold to investors through equity crowdfunding platforms. Investment in the stock market is most often done via stockbrokerages and electronic trading platforms.
+                    </div>
+                </div>
+                
+            </div> -->
+            <div class="profile">
+                <div class="mainprofile">
+                    <div class="profileimg">
+                        <img src="images/PriyaJot.jpeg" alt="profileimg" />
+                    </div>
+                    <div class="text">
+                        <span class="mainname">Priya Jot Goyal </span><br/>
+                        Hii This is Priya Jot Goyal, an extremely motivated indiviadual working as Java developer in a Telecom Industry since April,2021 and working to enhance my skills as developer.A stock market, equity market, or share market is the aggregation of buyers and sellers of stocks (also called shares), which represent ownership claims on businesses; these may include securities listed on a public stock exchange, as well as stock that is only traded privately.Working to be the best version of myself.
+                    </div>
+                    <div id="social">
+                        <a href="https//www.facebook.com" target="_blank">
+                            <i class="fab fa-facebook fa-2x" ></i>
+                            <!-- <img src="./homepage/images/facebook.png" alt="Facebook" class="slogo"/> -->
+                        </a>
+                        <a href="https//www.instagram.com" target="_blank">
+                            <i class="fab fa-instagram fa-2x" ></i>
+                            <!-- <img src="./homepage/images/insta.png" alt="Instagram" class="slogo"/> -->
+                        </a>
+                        <a href="https//www.youtube.com" target="_blank">
+                            <i class="fab fa-youtube fa-2x"></i>
+                            <!-- <img src="./homepage/images/youtube1.png" alt="youtube" class="slogo"/> -->
+                        </a>
                     </div>
                 </div>
                 
@@ -31,7 +61,7 @@
                 </ul>
             </div>
             <hr/>
-            <div class="skills">
+            <div class=" container skills">
                 <div class="name">
                     <h2>SKILLS</h2>
                 </div>
@@ -52,7 +82,7 @@
                 </div>
             </div>
             <hr/>
-            <div class="exp">
+            <div class="container exp">
                 <div class="name">
                     <h2>EXPERIENCE</h2>
                 </div>
@@ -61,20 +91,21 @@
                         <a href="https://virtuosonetsoft.com/" target="_blank"><img src="./images/vns.jpg" alt="VNS"></a>
                     </div>
                     <div>
-                        Working as Java Developer at Virtuoso Netsoft Private Ltd.
+                       <h3> Working as Java Developer at Virtuoso Netsoft Private Ltd.</h3>
                     </div>
                 </div>
             </div>
             <hr/>
-            <div class="edu">
+            <div class=" container edu">
                 <div class="name">
                     <h2>EDUCATION</h2>
                 </div>
                 <div>
                     <div>
-                        <table> 
+                        <table class="table table-striped table-bordered table-hover tablemargin"> 
                             <thead>
                                 <tr>
+                                    <th>S.No</th>
                                     <th>Education</th>
                                     <th>Campus</th>
                                     <th>Year</th>
@@ -82,14 +113,22 @@
                             </thead>
                             <tbody>
                                 <tr>
+                                   <td>1</td>
                                    <td>Graduation in Computer Science Engineering </td>
                                    <td>Baba Farid College of Engineering and Technology</td>
                                    <td>2017-2021</td>
                                 </tr>
                                 <tr>
+                                    <td>2</td>
                                     <td>Diploma In Computer Science Engineering</td>
                                     <td>Govt. Polytechnique College</td>
                                     <td>2015-2018</td>
+                                 </tr>
+                                 <tr>
+                                    <td>3</td>
+                                    <td>Matriculation</td>
+                                    <td>Punjab Education Board</td>
+                                    <td>2015</td>
                                  </tr>
                             </tbody>
                         </table>
@@ -110,8 +149,8 @@
                 <div class="name">
                     <h2>CONTACT</h2>
                 </div>
-                <div>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d186904.77377679772!2d-81.38904836986326!3d42.94904649046489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ef20ea88d9b0b%3A0x28c7d7699a056b95!2sLondon%2C%20ON%2C%20Canada!5e0!3m2!1sen!2sin!4v1642774562872!5m2!1sen!2sin" width="70%" height="400" style="border:0; align-items: center;" allowfullscreen="" loading="lazy"></iframe>
+                <div class="container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d186904.77377679772!2d-81.38904836986326!3d42.94904649046489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ef20ea88d9b0b%3A0x28c7d7699a056b95!2sLondon%2C%20ON%2C%20Canada!5e0!3m2!1sen!2sin!4v1642774562872!5m2!1sen!2sin" width="100%" height="400" style="border:0; align-items: center;" allowfullscreen="" loading="lazy"></iframe>
                    
                 </div>
                 <div class="bottom">
