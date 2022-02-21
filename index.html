@@ -4,9 +4,9 @@
         <title></title>
         <link href="index.css" rel="stylesheet" text="text/css"/>
         <script src="https://kit.fontawesome.com/97f33a6782.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>   
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     </head>
     <body>
         <div class="main">
@@ -52,14 +52,32 @@
                 </div>
                 
             </div>
-            <div class="nav">
-                <ul>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light navul">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">SKILLS <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">EXPERIENCE</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">PROJECTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">EDUCATION</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">HOBBIES</a>
+                    </li>
+                    
+                  </ul>
+                </div>
+              </nav>
             <hr/>
             <div class=" container skills">
                 <div class="name">
@@ -70,6 +88,8 @@
                         <li> <img src="./images/java_icon.png" alt="Java" /></li>
                         <li> <img src="./images/html5.png" alt="Html" /></li>
                         <li> <img src="./images/css.png" alt="Css" /></li>
+                        <li><img src="./images/bootstrap.jpg" alt="bootstrap"/></li>
+                        <li><img src="./images/javascript.png" alt="javascript"/></li>
                     </ul>
                         <!-- <img src="./images/java_icon.png" alt="Java" height="200px" width="200px" />
                     </span>
@@ -92,6 +112,20 @@
                     </div>
                     <div>
                        <h3> Working as Java Developer at Virtuoso Netsoft Private Ltd.</h3>
+                    </div>
+                </div>
+            </div>
+            <hr/>
+            <div class="container projects">
+                <div class="name">
+                    <h2>PROJECTS</h2>
+                </div>
+                <div class="proj">
+                    <div class="proj1 ">
+                        <a href="https://jotgoyal.github.io/zomatosite/" target="_blank"><img src="./images/proj1.png" alt="Zomato" class="shadow p-3 mb-5 bg-white rounded"/></a>
+                    </div>
+                    <div class="proj1">
+                        <a href="https://jotgoyal.github.io/2ndProject_BingeWatch/" target="_blank"><img src="./images/proj2.png" alt="BInge Watch" class="shadow p-3 mb-5 bg-white rounded"/></a>
                     </div>
                 </div>
             </div>
@@ -136,12 +170,14 @@
                 </div>
             </div>
             <hr/>
-            <div class="hobbies">
+            <div class="container hobbies">
                 <div class="name">
                     <h2>HOBBIES</h2>
                 </div>
                 <div>
-    
+                    <div>
+                        <img src="./images/reading.jpg" alt="reading"/>
+                    </div>
                 </div>
             </div>
             <hr/>

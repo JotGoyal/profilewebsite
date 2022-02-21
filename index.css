@@ -27,7 +27,8 @@ body{
 
 hr{
     width: 70%;
-    align-items: center;
+    margin-left: 22%;
+
 }
     /* pofileimage div content CSS */
 
@@ -64,9 +65,14 @@ hr{
 
 .text{
     height: 180px;
-    width: 60%;
+    width: 70%;
     margin-left: 34%;
     color: whitesmoke;
+    margin-bottom: 1%;
+}
+
+.social a{
+    text-decoration: none;
 }
 
 .mainname{
@@ -82,6 +88,14 @@ hr{
 #social i{
     margin-left: 2%;
     color: blueviolet
+}
+
+.navul{
+    margin-left: 30%;
+}
+
+.nav-item{
+    margin-left: 4%;
 }
 /* .profile{
     height: 400px;
@@ -122,7 +136,7 @@ hr{
     background-color: black;
 } */
     /*nav bar */
-.nav{
+/* .nav{
    align-items: center;
 
 }
@@ -146,21 +160,20 @@ hr{
     text-decoration: none;
     }
 
-    /* Change the link color to #111 (black) on hover */
+    /* Change the link color to #111 (black) on hover 
 .nav li a:hover {
     background-color: #04AA6D;
-    }
+    } */
 
     /*SKILLS DIV */
 .skills{
     height: 350px;
     text-align: center;
-    background-color: antiquewhite;
 }
 
 .sdiv{              /* HOW TO CENTER A DIV */
     margin: 2%;
-    margin-left:22%; 
+    margin-left:8%; 
  }
 
 .skills ul li {
@@ -183,8 +196,33 @@ hr{
 .exp{
     height: 350px;
     text-align: center;
-    background-color: aliceblue;
 }
+
+    /* PROJECTS DIV*/
+.projects{
+    height: 450px;
+    margin-bottom: 5px ;
+}
+
+.proj1{
+    height: 350px;
+    width: 450px;
+    float: left;
+    margin-left: 8%;
+    margin-top: 0.5%;
+}
+
+.proj1 img{ 
+    transition: transform .8s; /* Animation */
+    width: 450px;
+    height: 350px;
+}
+
+.proj1:hover{
+    transform: scale(1.1); 
+}
+
+
     /* EDUCATION DIV */
 .edu{
     height: 250px;
