@@ -7,6 +7,15 @@
         </title>
         <link href="./images/PriyaJot.jpeg" rel="icon"/>
         <style>
+
+            body{
+                margin: auto;
+            }
+
+            h2{
+                position: absolute;
+                margin-left: 45%;
+            }
            ul {
             list-style-type: none;
             overflow: hidden;
@@ -41,9 +50,37 @@
             a{
                 text-decoration: none;
             }
+
+            .parallax {
+  /* The image used */
+  background-image: url("./images/bg.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 {
+  /* The image used */
+  background-image: url("./images/images.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
         </style>
     </head>
-    <body>
+    <body >
         <div >
             <header>
                 <!-- <div style="margin-left: auto; margin-right: auto; ">
@@ -66,12 +103,14 @@
                     <hr/>
                     <!-- <div style="text-align: center;  background-image: url('./images/code.jpg'); filter: blur(8px);
                     -webkit-filter: blur(8px); height: 460px; width: 100%;"> -->
-                    <div style="text-align: center; background-image: url('./images/images.jpg'); background-position: center;
-                    background-repeat: no-repeat;background-size: cover; height: 400px; color: white; width: 100%;" >
+                    <!-- <div style="text-align: center; background-image: url('./images/images.jpg'); background-position: center;
+                    background-repeat: no-repeat;background-size: cover; height: 400px; color: white; width: 100%;" > -->
+
+                    <div class="parallax">
                         <div style="height:250px; width:17%;float: left; margin: 1%; text-align: center;">
                             <img src="./images/PriyaJot.jpeg" alt="ProfileImage" style="vertical-align: middle; width: 210px; height: 210px; border-radius: 210%; position: inherit;">
                         </div>
-                        <div style="height:250px; width:35%;display: inline-block; margin: 1%; text-align: center; ">
+                        <div style="height:250px; width:35%;display: inline-block; margin: 1%; text-align: center; position: absolute;">
                             <p>Hii This is Priya Jot Goyal, an extremely motivated indiviadual working as Java developer in a Telecom Industry since April,2021 and working to enhance my skills as developer.A stock market, equity market, or share market is the aggregation of buyers and sellers of stocks (also called shares), which represent ownership claims on businesses; these may include securities listed on a public stock exchange, as well as stock that is only traded privately, such as shares of private companies which are sold to investors through equity crowdfunding platforms. Investment in the stock market is most often done via stockbrokerages and electronic trading platforms. </p>
                         
                         </div>
@@ -112,7 +151,7 @@
                 
             </div>
             <hr/>
-            <div>
+            <div class="parallax2">
                 <center>
                     <h2>EXPERIENCE</h2>
                 </center>
@@ -132,11 +171,14 @@
                 </center>
             </div>
             <hr/>
-            <div>
+            <div style="background-image: url(https://images.squarespace-cdn.com/content/v1/5a63ba1d2aeba505429ab7ee/1516933194505-JPPAVLRVR40N8KAXB8DD/web-banner-08.jpg) ">
+
+                <!-- <img data-src="https://images.squarespace-cdn.com/content/v1/5a63ba1d2aeba505429ab7ee/1516933194505-JPPAVLRVR40N8KAXB8DD/web-banner-08.jpg" data-image="https://images.squarespace-cdn.com/content/v1/5a63ba1d2aeba505429ab7ee/1516933194505-JPPAVLRVR40N8KAXB8DD/web-banner-08.jpg" data-image-dimensions="1500x1500" data-image-focal-point="0.52,0.33" data-load="false" data-parent-ratio="1.1" alt="web-banner-08.jpg" class="" data-image-resolution="2500w" src="https://images.squarespace-cdn.com/content/v1/5a63ba1d2aeba505429ab7ee/1516933194505-JPPAVLRVR40N8KAXB8DD/web-banner-08.jpg?format=2500w" style="font-size: 0px; left: 0px; top: 0px; width: 1490px; height: 1490px; position: relative; user-select: auto;"> -->
+
                 <center>
                         <h2>EDUCATION</h2>
                 </center>
-                <div style="height:150px; width:100%" >
+                <div style="height:700px; width:100%; margin: auto;" >
                         <!-- <center>
                             <div style="margin:50px; float:center; ">
                                 <span style="background-color: aquamarine; border: 1px solid black ; margin:50px 50px; padding: 20px;";>
